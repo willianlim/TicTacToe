@@ -115,5 +115,11 @@ public class TicTacToe {
                 System.out.println("Slot already taken; re-enter slot number: ");
             }
         }
+
+        if (winner.equalsIgnoreCase("draw")) {
+            System.out.println("It's a draw! Thanks for playing.");
+        } else {
+            System.out.println("Congratulations !" + winner + "'s have won! Thanks for playing.");
+        }
     }
 }
